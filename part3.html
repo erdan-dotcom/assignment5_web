@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Part 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="part1.html">Part 1</a>
+        <a href="part2.html">Part 2</a>
+        <a href="part3.html" class="active">Part 3</a>
+        <a href="part4.html">Part 4</a>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h2>Task 5: Mouse Events</h2>
+            <div id="hover-box" class="box">Hover over me</div>
+        </div>
+        <div class="card">
+            <h2>Task 6: Keyboard Events</h2>
+            <input type="text" id="live-input" placeholder="Type something...">
+            <p>Live output: <strong id="live-output"></strong></p>
+        </div>
+        <div class="card">
+            <h2>Task 7: Calculator</h2>
+            <input type="number" id="calc-num1" placeholder="Number 1">
+            <select id="calc-op">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="number" id="calc-num2" placeholder="Number 2">
+            <button id="calc-btn">Calculate</button>
+            <p>Result: <strong id="calc-result"></strong></p>
+        </div>
+    </div>
+    <script src="part3.js"></script>
+</body>
+</html>

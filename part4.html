@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Part 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="part1.html">Part 1</a>
+        <a href="part2.html">Part 2</a>
+        <a href="part3.html">Part 3</a>
+        <a href="part4.html" class="active">Part 4</a>
+    </div>
+    <div class="container todo-grid">
+        <div>
+            <h2>To-do list</h2>
+            <div id="todo-list-container"></div>
+        </div>
+        <div>
+            <h2>Add new task</h2>
+            <div class="card">
+                <label>* Title</label><br>
+                <input type="text" id="task-title" style="width: 90%;"><br>
+                <label>* Description</label><br>
+                <textarea id="task-desc" rows="5" style="width: 90%;"></textarea><br>
+                <button id="add-task-btn" style="width: 90%; padding: 12px; margin-top: 10px;">Add task</button>
+            </div>
+        </div>
+    </div>
+    <script src="part4.js"></script>
+</body>
+</html>
